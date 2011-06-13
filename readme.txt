@@ -1,0 +1,37 @@
+=== Plugin Name ===
+Contributors: ramoonus
+Donate link: http://www.ramoonus.nl
+Tags: jquery, processing, javascript, java
+Requires at least: 3.0.0
+Tested up to: 3.2.0
+Stable tag: 1.0.0
+
+Processing.js is the sister project of the popular Processing visual programming language, designed for the web. Processing.js makes your data visualizations, digital art, interactive animations, educational graphs, video games, etc. work using web standards and without any plug-ins. 
+== Description ==
+Processing.js is the sister project of the popular Processing visual programming language, designed for the web. Processing.js makes your data visualizations, digital art, interactive animations, educational graphs, video games, etc. work using web standards and without any plug-ins. You write code using the Processing language, include it in your web page, and Processing.js does the rest. It's not magic, but almost.
+
+Originally developed by Ben Fry and Casey Reas, Processing started as an open source programming language based on Java to help the electronic arts and visual design communities learn the basics of computer programming in a visual context. Processing.js takes this to the next level, allowing Processing code to be run by any HTML5 compatible browser, including current versions of Firefox, Safari, Chrome, Opera, and Internet Explorer. Processing.js brings the best of visual programming to the web, both for Processing and web developers.
+
+Everything you need to work with Processing.js is here. You can download the most recent version of Processing.js, read Quick Start Guides for Processing Developers or JavaScript Developers, learn about the Processing language and Processing.js render modes, consult the Reference, and of course view many existing demos that use Processing.js. You can also get involved with the Processing and Processing.js communities, both of which are active and and looking for new users and developers.
+
+Whether you're an advanced Processing developer or completely new, whether you're a pro with web technologies or just getting started, Processing.js bridges the gap between these two powerful technologies.
+
+== Installation ==
+1. Upload `processing-js/` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Frequently Asked Questions == 
+None at this moment.
+
+== Upgrade Notice == 
+Its recommended to flush the cache after upgrading.
+
+== Screenshots ==
+Not relevant.
+
+== Changelog ==
+= 1.2.1 =
+* Same as 1.0 but with same tagging as the javascript core.
+
+= 1.0 =
+* First version. Based on Processing.js 1.2.1
