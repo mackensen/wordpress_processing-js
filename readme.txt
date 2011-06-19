@@ -4,7 +4,7 @@ Donate link: http://www.ramoonus.nl
 Tags: jquery, processing, javascript, java
 Requires at least: 3.0.0
 Tested up to: 3.2.0
-Stable tag: 1.0.0
+Stable tag: 1.2.1.1
 
 Processing.js is the sister project of the popular Processing visual programming language, designed for the web. Processing.js makes your data visualizations, digital art, interactive animations, educational graphs, video games, etc. work using web standards and without any plug-ins. 
 == Description ==
@@ -30,6 +30,9 @@ Its recommended to flush the cache after upgrading.
 Not relevant.
 
 == Changelog ==
+= 1.2.1.1 / 1.1 =
+* Added support for the [processing] shortcode. but your script between [processing] and [/processing]
+
 = 1.2.1 =
 * Same as 1.0 but with same tagging as the javascript core.
 
