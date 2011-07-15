@@ -3,8 +3,8 @@ Contributors: ramoonus
 Donate link: http://www.ramoonus.nl
 Tags: jquery, processing, javascript, java
 Requires at least: 3.0.0
-Tested up to: 3.2.0
-Stable tag: 1.2.1.1
+Tested up to: 3.3.0
+Stable tag: 1.2.3
 
 Processing.js is the sister project of the popular Processing visual programming language, designed for the web. Processing.js makes your data visualizations, digital art, interactive animations, educational graphs, video games, etc. work using web standards and without any plug-ins. 
 == Description ==
@@ -30,6 +30,11 @@ Its recommended to flush the cache after upgrading.
 Not relevant.
 
 == Changelog ==
+= 1.2.3 =
+* Removed Init.js
+* Updated Processing.js to 1.2.3. Changelog: http://processingjs.org/blog/?p=314
+* At the moment only one shortcode per page allowed!
+
 = 1.2.1.1 / 1.1 =
 * Added support for the [processing] shortcode. but your script between [processing] and [/processing]
 
