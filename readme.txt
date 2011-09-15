@@ -31,6 +31,10 @@ None at this moment.
 Not relevant.
 
 == Changelog ==
+= 1.3.0.1 = 
+* Fixed some setting by removing autop - thanks 
+* Renamed canvas to processingcanvas
+
 = 1.3.0 =
 * Updated Processing.js to version 1.3.0 - Release notes http://processingjs.org/blog/?p=332
 * Small readme changes
