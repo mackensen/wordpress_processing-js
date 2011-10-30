@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: Ramoonus
-Donate link: http://www.ramoonus.nl
-Tags: jquery, processing, javascript, java
-Requires at least: 3.0.0
-Tested up to: 3.3.0
-Stable tag: 1.3.5
+Donate link: http://www.ramoonus.nl/donate/
+Tags: jquery, processing, javascript, java, processingjs
+Requires at least: 3.0
+Tested up to: 3.3
+Stable tag: 1.3.6
 
 Processing.js is the sister project of the popular Processing visual programming language, designed for the web. Processing.js makes your data visualizations, digital art, interactive animations, educational graphs, video games, etc. work using web standards and without any plug-ins. 
 == Description ==
@@ -24,11 +24,6 @@ Whether you're an advanced Processing developer or completely new, whether you'r
 None at this moment.
 
 == Upgrade Notice == 
-= 1.3.5 =
-* Updated Processing.js to version 1.3.5
-* Fixed important bugs
-* Code cleanup
-
 = 1.3.0 =
 * Updated Processing.js to version 1.3.0
 
@@ -36,6 +31,15 @@ None at this moment.
 Not relevant.
 
 == Changelog ==
+= 1.3.6 =
+* Readme fix
+* Updated Processing.js to version 1.3.6
+
+= 1.3.5 =
+* Updated Processing.js to version 1.3.5
+* Fixed important bugs
+* Code cleanup
+
 = 1.3.0.1 = 
 * Fixed some setting by removing autop - thanks 
 * Renamed canvas to processingcanvas
