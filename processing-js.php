@@ -23,21 +23,24 @@ add_action( 'init', 'rw_processing' );
 /* Shortcode */
 function rw_processing_sc( $attr, $content ) {
 	// open
-	echo '<script type="text/processing" data-processing-target="processingcanvas">';
+	$output = '<script type="application/processing" data-processing-target="processingcanvas">';
 	// return content
-	echo $content;
+	$output .= html_entity_decode( $content );
 	// close
-	echo '</script>';
-	echo '<canvas id="processingcanvas"></canvas>';
+	$output .= '</script>';
+	$output .= '<canvas id="processingcanvas"></canvas>';
+	return $output;
 }
 
-add_shortcode( "processing", "rw_processing_sc" );
-add_shortcode( "processingjs", "rw_processing_sc" );
+// Do not texturize the shortcodes.
+add_filter( 'no_texturize_shortcodes', 'shortcodes_to_exempt_from_wptexturize' );
+function shortcodes_to_exempt_from_wptexturize( $shortcodes ) {
+	$shortcodes[] = 'processingjs';
+	$shortcodes[] = 'processing';
+	return $shortcodes;
+}
 
-/* Remove WordPress Auto P */
+add_shortcode( 'processing', 'rw_processing_sc' );
+add_shortcode( 'processingjs', 'rw_processing_sc' );
 remove_filter( 'the_content', 'wpautop' );
-remove_filter( 'the_content', 'wptexturize' );
-// return after processing
-add_filter( 'the_content', 'wpautop', 99 );
-add_filter( 'the_content', 'wptexturize', 99 );
 ?>
